@@ -8,7 +8,6 @@ public class Enemy : MonoBehaviour
     public int enemyLevel;
     public int enemySpeed;
     public Vector3 enemyDamage;
-    public int dealDamage;
     public int score;
 
 
@@ -22,13 +21,13 @@ public class Enemy : MonoBehaviour
         switch (enemyLevel)
         {
             case 0:
-                enemyDamage = 5;
+                //enemyDamage = 5;
                 break;
             case 1:
-                enemyDamage = 8;
+                //enemyDamage = 8;
                 break;
             case 2:
-                enemyDamage = 10;
+                //enemyDamage = 10;
                 break;
             default:
                 break;
